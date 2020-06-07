@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/dna/static/css/main.24b953a1.chunk.css",
+    "main.js": "/dna/static/js/main.1ffaecca.chunk.js",
+    "main.js.map": "/dna/static/js/main.1ffaecca.chunk.js.map",
+    "runtime-main.js": "/dna/static/js/runtime-main.d7a1bd56.js",
+    "runtime-main.js.map": "/dna/static/js/runtime-main.d7a1bd56.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/dna/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.99203f2a.chunk.js": "/dna/static/js/2.99203f2a.chunk.js",
+    "static/js/2.99203f2a.chunk.js.map": "/dna/static/js/2.99203f2a.chunk.js.map",
+    "index.html": "/dna/index.html",
+    "precache-manifest.d9882ac4b11ab8e390758537b84656cd.js": "/dna/precache-manifest.d9882ac4b11ab8e390758537b84656cd.js",
+    "service-worker.js": "/dna/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/dna/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.24b953a1.chunk.css.map": "/dna/static/css/main.24b953a1.chunk.css.map",
+    "static/js/2.99203f2a.chunk.js.LICENSE.txt": "/dna/static/js/2.99203f2a.chunk.js.LICENSE.txt",
+    "static/media/Facebook.0ed7c09b.svg": "/dna/static/media/Facebook.0ed7c09b.svg",
+    "static/media/Insta.4b2d6a24.svg": "/dna/static/media/Insta.4b2d6a24.svg",
+    "static/media/LinkedIn.f5b49e98.svg": "/dna/static/media/LinkedIn.f5b49e98.svg",
+    "static/media/Logo.cc8214b4.svg": "/dna/static/media/Logo.cc8214b4.svg",
+    "static/media/email.7bd03efd.svg": "/dna/static/media/email.7bd03efd.svg",
+    "static/media/location.c883c234.svg": "/dna/static/media/location.c883c234.svg",
+    "static/media/phone.8be273ed.svg": "/dna/static/media/phone.8be273ed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7a1bd56.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.99203f2a.chunk.js",
+    "static/css/main.24b953a1.chunk.css",
+    "static/js/main.1ffaecca.chunk.js"
+  ]
+}
