@@ -1,0 +1,14 @@
+{
+    "items": [
+        { "id": "0", "name": "INTERIOR DESIGN", "text": "1", "icon": "/media/services/interior.svg" },
+        { "id": "1", "name": "DRAFTING", "text": "2", "icon": "/media/services/drafting.svg" },
+        { "id": "2", "name": "ARCHITECTURAL DESIGN", "text": "3", "icon": "/media/services/architecturalDesign.svg" },
+        { "id": "3", "name": "RENOVATION", "text": "4", "icon": "/media/services/renovation.svg" },
+        { "id": "4", "name": "URBAN PLANNING", "text": "5", "icon": "/media/services/urban.svg" },
+        { "id": "5", "name": "PARAMETRIC DESIGN", "text": "6", "icon": "/media/services/parametric.svg" },
+        { "id": "6", "name": "COMPUTATIONAL ANALYSIS", "text": "7", "icon": "/media/services/computationalDesign.svg" },
+        { "id": "7", "name": "3D SCANNING", "text": "8", "icon": "/media/services/3dScanning.svg" },
+        { "id": "8", "name": "INTERACTION DESIGN", "text": "9", "icon": "/media/services/interaction.svg" },
+        { "id": "9", "name": "VISUALISATIONS", "text": "10", "icon": "/media/services/visualisation.svg" }
+    ]
+}
