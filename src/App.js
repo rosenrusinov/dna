@@ -28,7 +28,7 @@ class App extends React.Component {
 
   render () {
     return (
-      <Router>
+      <Router basename='/dna'>
         <SimpleReactLightbox>
         <ScrollToTop>
         <Container className='p-0' fluid={true}>
