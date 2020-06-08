@@ -1,4 +1,5 @@
 import React from 'react';
+import Media from 'react-media';
 import { Container, Row } from 'react-bootstrap';
 import Service from '../components/Service';
 
@@ -17,7 +18,7 @@ class Services extends React.Component {
         this.setState({text: text, selected: id});
     }
 
-    makeItems = (items) => {
+    makeItems = (items, small) => {
         return items.map(item => {
             return <Service key={item.id} selected={item.id === this.state.selected}
                     img={item.icon}
@@ -30,9 +31,19 @@ class Services extends React.Component {
     render () {
         return (
             <Container className='services-container'>
-                <Row className='center-col'>
-                    {this.makeItems(ServicesData.items)}
-                </Row>
+                <Media query={{ maxWidth: 1199 }}>
+                {matches =>
+                    matches ? (
+                        <Row xs={2} sm={5} md={5} className='center-col'>
+                            {this.makeItems(ServicesData.items)}
+                        </Row>
+                    ) : (
+                        <Row className='center-col'>
+                            {this.makeItems(ServicesData.items)}
+                        </Row>
+                    )
+                }
+                </Media>
                 <Row>
                     {this.state.text && <div className='employee-text'>{this.state.text}</div>}
                 </Row>

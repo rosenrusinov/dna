@@ -12,7 +12,7 @@ function News (props) {
 
     return (
         <Container className='home-news-container' onClick={handleClick}>
-            <Row>
+            <Row xs={1} sm={2} md={2}>
                 <Col>
                     <img src={props.thumbnail} width="100%" alt={props.thumbnail}/>
                 </Col>

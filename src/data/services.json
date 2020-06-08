@@ -7,7 +7,7 @@
         { "id": "4", "name": "URBAN PLANNING", "text": "5", "icon": "/dna/media/services/urban.svg" },
         { "id": "5", "name": "PARAMETRIC DESIGN", "text": "6", "icon": "/dna/media/services/parametric.svg" },
         { "id": "6", "name": "COMPUTATIONAL ANALYSIS", "text": "7", "icon": "/dna/media/services/computationalDesign.svg" },
-        { "id": "7", "name": "3D SCANNING", "text": "8", "icon": "/dna/media/services/3dScanning.svg" },
+        { "id": "7", "name": "3D SCANNING", "text": "8", "icon": "/dna/media/services/scanning.svg" },
         { "id": "8", "name": "INTERACTION DESIGN", "text": "9", "icon": "/dna/media/services/interaction.svg" },
         { "id": "9", "name": "VISUALISATIONS", "text": "10", "icon": "/dna/media/services/visualisation.svg" }
     ]

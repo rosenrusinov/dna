@@ -74,13 +74,13 @@ class Contacts extends React.Component {
 
     render() {
         return (
-            <div>
+            <Container fluid={true}>
                 <Container className='contacts-header'>
                     <Row className='contacts-title'>
                         <p className='contacts-title-text'>CONTACT US</p>
                     </Row>
 
-                    <Row className='center-col'>
+                    <Row className='contacts-options'>
                         <Col className='contacts-col'>
                             <Phone style={{width: 23.8, height: 43.6}}/>
                             <p className='contacts-col-title'>PHONE</p>
@@ -121,7 +121,7 @@ class Contacts extends React.Component {
                 <Container fluid={true} className='p-0' style={{height: 516}}>
                     <MapContainer />
                 </Container>
-            </div>
+            </Container>
         )
     }
 }

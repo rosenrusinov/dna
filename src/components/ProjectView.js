@@ -88,7 +88,7 @@ function ProjectView (props)  {
     return (
         <div>
             <SRLWrapper options={options}>
-                <Carousel indicators={false} key={project.link} className='news-carousel'>
+                <Carousel pause={false}  indicators={false} key={project.link} className='news-carousel'>
                     {makeSlideshow(project.slideshow)}
                 </Carousel>
                 <Container key={"project" + index} className='project-view-container'>

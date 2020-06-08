@@ -78,6 +78,8 @@
   width: 90px;
   height: 150px;
   cursor: pointer;
+  display: grid;
+  justify-content: center;
 }
 
 .service-header-box:hover {
@@ -92,6 +94,7 @@
   vertical-align: bottom;
   display: table-cell;
   padding-bottom: 10px;
+  margin: auto;
 }
 
 .service-header-image {
@@ -115,11 +118,11 @@
   text-align: center;
   color: #042f57;
   margin-top: 10px;
+  height: 30px;
 }
 
 .contacts-header {
-  margin: 40px;
-  justify-content: center;
+  margin-top: 40px;
 }
 
 .contacts-title {
@@ -158,6 +161,11 @@
 .middle {
   border-left: #05ce7e 2px solid;
   border-right: #05ce7e 2px solid;
+}
+
+.contacts-options {
+  justify-content: center;
+  align-items: center;
 }
 
 .contacts-form {
@@ -344,7 +352,6 @@
 .center-col {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
 }
 
 .about-us-employee-image {
@@ -376,11 +383,10 @@
 .navbar-custom .nav-link {
   color: #042f57 !important;
   text-align: center;
-  vertical-align: middle;
   padding-left: 60px !important;
   padding-right: 60px !important;
-  margin-top: 8px !important;
-  padding-bottom: 18px !important;
+  margin-top: 26px !important;
+  padding-bottom: 0px !important;
   font-size: 18px;
 }
 
