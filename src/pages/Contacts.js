@@ -77,14 +77,13 @@ class Contacts extends React.Component {
             <div>
                 <Container className='contacts-header'>
                     <Row className='contacts-title'>
-                        <p className='contacts-title-text'>GET IN TOUCH WITH US TODAY!</p>
+                        <p className='contacts-title-text'>CONTACT US</p>
                     </Row>
 
-                    <Row>
+                    <Row className='center-col'>
                         <Col className='contacts-col'>
                             <Phone style={{width: 23.8, height: 43.6}}/>
                             <p className='contacts-col-title'>PHONE</p>
-                            <p className='contacts-col-text'><a href='tel:+359 889 25 25 20'>+359 889 25 25 20</a></p>
                             <p className='contacts-col-text'><a href='tel:+359 889 60 56 09'>+359 889 60 56 09</a></p>
                         </Col>
                         <Col className='contacts-col middle'>

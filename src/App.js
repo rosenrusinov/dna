@@ -5,7 +5,7 @@ import SimpleReactLightbox from "simple-react-lightbox";
 
 import './App.css';
 
-import {ReactComponent as Logo} from './Logo.svg';
+import {ReactComponent as Logo} from './logo.svg';
 import AboutUs from './pages/About';
 import Home from './pages/Home';
 import NewsView from './components/NewsView';

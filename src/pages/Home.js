@@ -22,7 +22,7 @@ function makeSlideshow (items) {
 function Home(props) {
     return (
         <div>
-            <Carousel className='home-carousel'>
+            <Carousel indicators={false} className='home-carousel'>
                 {makeSlideshow(Slideshow.items)}
             </Carousel>
             <NewsList>

@@ -119,6 +119,7 @@
 
 .contacts-header {
   margin: 40px;
+  justify-content: center;
 }
 
 .contacts-title {
@@ -128,7 +129,7 @@
 
 .contacts-title-text {
   font-size: x-large;
-  font-weight: 500;
+  font-weight: 400;
   color: #042f57;
 }
 
