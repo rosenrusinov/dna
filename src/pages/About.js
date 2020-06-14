@@ -42,9 +42,9 @@ class AboutUs extends React.Component {
                     {this.makeItems(this.state.items)}
                 </Row>
                 <Row>
-                    
-
+                <Col className='about-us-text'>
                     {this.state.text && <div key={this.state.text} className='employee-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(this.state.text)} }/>}
+                </Col>
                 </Row>
             </Container>
         )

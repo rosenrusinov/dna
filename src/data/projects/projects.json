@@ -1,7 +1,8 @@
 {
     "items": [
-        { 
+        {
             "link": "delight",
+            "title": "DE'LIGHT",
             "thumbnail": "/dna/media/projects/delight/slideshow/DeLight.jpg",
             "slideshow": [
                 "/dna/media/projects/delight/slideshow/DeLight.jpg", 
@@ -42,6 +43,7 @@
         },
         { 
             "link": "panorama",
+            "title": "PANORAMA APARTMENT",
             "thumbnail": "/dna/media/projects/panorama/slideshow/L1.jpg",
             "slideshow": [
                 "/dna/media/projects/panorama/slideshow/A1.jpg", 
@@ -103,6 +105,7 @@
         },
         { 
             "link": "levels",
+            "title": "LEVELS",
             "thumbnail": "/dna/media/projects/levels/slideshow/01.jpg",
             "slideshow": [
                 "/dna/media/projects/levels/slideshow/14.jpg",
@@ -147,6 +150,7 @@
         },
         { 
             "link": "sulzano",
+            "title": "SULZANO",
             "thumbnail": "/dna/media/projects/sulzano/slideshow/13.jpg",
             "slideshow": [
                 "/dna/media/projects/sulzano/slideshow/1.jpg",
@@ -177,6 +181,7 @@
         },
         { 
             "link": "roomwithview",
+            "title": "ROOM WITH A VIEW",
             "thumbnail": "/dna/media/projects/roomwithaview/slideshow/Thumbnail.jpg",
             "slideshow": [
                 "/dna/media/projects/roomwithaview/slideshow/1.jpg",
@@ -212,6 +217,7 @@
         },
         { 
             "link": "pathway",
+            "title": "SEASCAPE PATHWAY",
             "thumbnail": "/dna/media/projects/pathway/slideshow/A.jpg",
             "slideshow": [
                 "/dna/media/projects/pathway/slideshow/A.jpg",
