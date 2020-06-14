@@ -103,6 +103,42 @@
                 ]},
                 { "type": "text", "text": "Text" }
             ]
+        },
+        {
+            "link": "synapse",
+            "thumbnail": "/dna/media/research/synapse/slideshow/2.jpg",
+            "slideshow": [
+                "/dna/media/research/nff/slideshow/TerraArtificium_thumbnail.jpg",
+                "/dna/media/research/nff/slideshow/1.jpg",
+                "/dna/media/research/nff/slideshow/2.jpg",
+                "/dna/media/research/nff/slideshow/3.jpg",
+                "/dna/media/research/nff/slideshow/5.jpg",
+                "/dna/media/research/nff/slideshow/6.jpg",
+                "/dna/media/research/nff/slideshow/7.jpg",
+                "/dna/media/research/nff/slideshow/8.jpg",
+                "/dna/media/research/nff/slideshow/9.jpg",
+                "/dna/media/research/nff/slideshow/11.jpg",
+                "/dna/media/research/nff/slideshow/12.jpg",
+                "/dna/media/research/nff/slideshow/13.jpg",
+                "/dna/media/research/nff/slideshow/14.jpg",
+                "/dna/media/research/nff/slideshow/15.jpg",
+                "/dna/media/research/nff/slideshow/16.jpg"
+            ],
+            "views": [
+                { "type": "text", "text": "Text" },
+                { "type": "grid", "content": [
+                    ["/dna/media/research/nff/content/D1.jpg"]
+                ]},
+                { "type": "text", "text": "Text" },
+                { "type": "grid", "content": [
+                    ["/dna/media/research/nff/content/D2.jpg", "/dna/media/research/nff/content/D3.jpg", "/dna/media/research/nff/content/D4.jpg"]
+                ]},
+                { "type": "text", "text": "Text" },
+                { "type": "grid", "content": [
+                    ["/dna/media/research/nff/content/1.jpg", "/dna/media/research/nff/content/2.jpg", "/dna/media/research/nff/content/3.jpg"]
+                ]},
+                { "type": "text", "text": "Text" }
+            ]
         }
     ]
 }

@@ -11,8 +11,8 @@ function Employee (props) {
                     </div>
                 :   <img onClick={(e) => props.onClick(e)} className='about-us-employee-image' src={props.img} alt={props.name}/> }
                 
-                <p className='about-us-employee-text'><b>{props.name}</b></p>
-                <p className='about-us-employee-text'><b>{props.title}</b></p>
+                <p className='about-us-employee-text'>{props.name}</p>
+                <p className='about-us-employee-text'>{props.title}</p>
             </div>
         </Col>
     )
