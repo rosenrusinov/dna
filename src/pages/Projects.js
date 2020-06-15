@@ -12,7 +12,7 @@ function makeItems (items, path) {
 function Projects (props) {
     return (
         <Container fluid={true} className='projects-container'>
-            <Row xs={2} sm={2} md={3} lg={3}>
+            <Row xs={2} sm={2} md={2} lg={3} xl={3}>
                 {makeItems(props.projects, props.path)}
             </Row>
         </Container>
