@@ -13,7 +13,7 @@ function makeNews (items) {
 function NewsList (props) {
     return (
         <Container className='home-news-list'>
-            <Row className='home-news-title'>NEWS</Row>
+            <Row className='home-news-title'>НОВИНИ</Row>
             <Row className='home-news-inner-list'>
                 {makeNews(NewsData.items)}
             </Row>

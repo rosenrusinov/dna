@@ -37,11 +37,9 @@ class App extends React.Component {
             <Navbar.Toggle className='ml-auto navbar-toggle' aria-controls='navbar-toggle' />
             <Navbar.Collapse id='navbar-toggle'>
               <Nav className='m-auto border-bottom navbar-custom'>
-                <Link className='nav-link' to='/about'>ABOUT US</Link>
-                <Link className='nav-link' to='/services'>SERVICES</Link>
-                <Link className='nav-link' to='/projects'>PROJECTS</Link>
-                <Link className='nav-link' to='/research'>RESEARCH</Link>
-                <Link className='nav-link' to='/contacts'>CONTACTS</Link>
+                <Link className='nav-link' to='/about'>ЗА НАС</Link>
+                <Link className='nav-link' to='/services'>УСЛУГИ</Link>
+                <Link className='nav-link' to='/projects'>ПРОЕКТИ</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

@@ -8,7 +8,7 @@ function Footer(props) {
     return (
         <div className='footer-container'>
             <div onClick={() => {window.scrollTo(0, 0)}} className='footer-top-text'>
-                <i className="arrow up"></i>back to top
+                <i className="arrow up"></i>начало
             </div>
             <div className='footer-icons-container'>
                 <a href="https://www.linkedin.com/" target="_blank" rel='noopener noreferrer'><LinkedIn className='footer-icon'/></a>

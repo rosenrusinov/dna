@@ -1,14 +1,14 @@
 {
     "items": [
-        { "id": "0", "name": "INTERIOR DESIGN", "text": "1", "icon": "/dna/media/services/interior.svg" },
-        { "id": "1", "name": "DRAFTING", "text": "2", "icon": "/dna/media/services/drafting.svg" },
-        { "id": "2", "name": "ARCHITECTURAL DESIGN", "text": "3", "icon": "/dna/media/services/architecturalDesign.svg" },
-        { "id": "3", "name": "RENOVATION", "text": "4", "icon": "/dna/media/services/renovation.svg" },
-        { "id": "4", "name": "URBAN PLANNING", "text": "5", "icon": "/dna/media/services/urban.svg" },
-        { "id": "5", "name": "PARAMETRIC DESIGN", "text": "6", "icon": "/dna/media/services/parametric.svg" },
-        { "id": "6", "name": "COMPUTATIONAL ANALYSIS", "text": "7", "icon": "/dna/media/services/computationalDesign.svg" },
-        { "id": "7", "name": "3D SCANNING", "text": "8", "icon": "/dna/media/services/scanning.svg" },
-        { "id": "8", "name": "INTERACTION DESIGN", "text": "9", "icon": "/dna/media/services/interaction.svg" },
-        { "id": "9", "name": "VISUALISATIONS", "text": "10", "icon": "/dna/media/services/visualisation.svg" }
+        { "id": "0", "name": "ИНТЕРИОРЕН ДИЗАЙН", "text": "1", "icon": "/dna/media/services/interior.svg" },
+        { "id": "1", "name": "АРХИТЕКТУРНО ЗАСНЕМАНЕ", "text": "2", "icon": "/dna/media/services/drafting.svg" },
+        { "id": "2", "name": "АРХИТЕКТУРЕН ДИЗАЙН", "text": "3", "icon": "/dna/media/services/architecturalDesign.svg" },
+        { "id": "3", "name": "РЕНОВАЦИЯ", "text": "4", "icon": "/dna/media/services/renovation.svg" },
+        { "id": "4", "name": "ГРАДОУСТРОЙСТВО", "text": "5", "icon": "/dna/media/services/urban.svg" },
+        { "id": "5", "name": "ПАРАМЕТРИЧЕН ДИЗАЙН", "text": "6", "icon": "/dna/media/services/parametric.svg" },
+        { "id": "6", "name": "КОМПЮТЪРНЕН АНАЛИЗ", "text": "7", "icon": "/dna/media/services/computationalDesign.svg" },
+        { "id": "7", "name": "3D СКЕНИРАНЕ", "text": "8", "icon": "/dna/media/services/scanning.svg" },
+        { "id": "8", "name": "ИНТЕРАКТИВЕН ДИЗАЙН", "text": "9", "icon": "/dna/media/services/interaction.svg" },
+        { "id": "9", "name": "ВИЗУАЛИЗАЦИИ", "text": "10", "icon": "/dna/media/services/visualisation.svg" }
     ]
 }
