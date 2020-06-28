@@ -40,6 +40,8 @@ class App extends React.Component {
                 <Link className='nav-link' to='/about'>ЗА НАС</Link>
                 <Link className='nav-link' to='/services'>УСЛУГИ</Link>
                 <Link className='nav-link' to='/projects'>ПРОЕКТИ</Link>
+                <Link className='nav-link' to='/research'>РАЗРАБОТКИ</Link>
+                <Link className='nav-link' to='/contacts'>КОНТАКТИ</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
