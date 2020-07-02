@@ -386,26 +386,6 @@
   cursor: pointer;
 }
 
-.about-us-employee-image-selected {
-  border: 5px solid #05ce7e;
-}
-
-.employee-tint {
-  position: relative;
-  float: left;
-}
-
-.employee-tint:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #05ce7e20;
-}
-
 .navbar-custom .nav-link {
   color: #042f57 !important;
   text-align: center;
