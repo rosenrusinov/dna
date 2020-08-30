@@ -4,8 +4,111 @@
 
 .logo {
   margin: 0;
-  width: 48px;
+  width: 78px;
   height: 100%;
+  fill: #05ce7e;
+}
+
+.navbar-logo {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.navbar-container {
+  padding-top: 10px;
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.navbar-inner {
+  width: 10%;
+  border-bottom: solid #05ce7e 2px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.navbar-end {
+  width: 10%;
+  border-bottom: solid #05ce7e 2px;
+}
+
+.navbar-end-button {
+  border-bottom: solid #05ce7e 2px;
+  padding-right: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  vertical-align: bottom;
+  padding-top: 18.5px;
+}
+
+.burger-button {
+  height: 29px;
+  width: 29px;
+  margin-bottom: -20px;
+  cursor: pointer;
+  fill: #05ce7e;
+  stroke: #05ce7e;
+  vertical-align: bottom;
+}
+
+.navbar-link {
+  border-bottom: solid #05ce7e 2px;
+  text-align: center;
+  color: #505050;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-link-small {
+  text-align: center;
+  color: #505050;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-text {
+  margin-top: auto;
+  padding-bottom: 5px !important;
+  margin-bottom: 0px;
+  font-size: small;
+  font-weight: 500;
+  color: #505050;
+  background-color: #ffffffff;
+}
+
+.navbar-text:hover {
+  text-decoration: none;
+  color: #505050;
+}
+
+.navbar-text-selected {
+  margin-top: auto;
+  padding-bottom: 5px !important;
+  margin-bottom: -13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: small;
+  font-weight: 500;
+  color: #505050;
+  width: fit-content;
+  background-color: #ffffffff;
+}
+
+.navbar-text-selected:hover {
+  text-decoration: none;
+  color: #505050;
+}
+
+.navbar-text:active {
+  color: #505050;
 }
 
 .navbar-absolute {
@@ -94,7 +197,8 @@
 }
 
 .services-container {
-  padding-top: 60px;
+  padding-top: 40px;
+  padding-bottom: 00px;
 }
 
 .service-header-box {
@@ -350,7 +454,8 @@
 
 .about-us-text {
   text-align: justify;
-  margin-bottom: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: 20px;
   margin-right: 20px;
   font-size: 14px;
@@ -358,7 +463,7 @@
 
 .employee-text {
   text-align: justify;
-  margin-top: 60px;
+  margin-top: 40px;
   padding-left: 10px;
   font-size: 14px;
   border-left: 3px solid #05ce7e;

@@ -2,7 +2,6 @@ import React from 'react';
 import Media from 'react-media';
 import { Container, Row } from 'react-bootstrap';
 import Service from '../components/Service';
-
 import ServicesData from '../data/services.json';
 
 class Services extends React.Component {
