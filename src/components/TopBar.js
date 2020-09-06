@@ -7,6 +7,9 @@ import Collapsible from './Collapsible';
 import {ReactComponent as BgButton} from '../vectors/bg.svg';
 import {ReactComponent as EnButton} from '../vectors/en.svg';
 
+import {ReactComponent as BgButtonSel} from '../vectors/bg_selected.svg';
+import {ReactComponent as EnButtonSel} from '../vectors/en_selected.svg';
+
 import { withTranslation } from 'react-i18next';
 
 class TopBar extends React.Component {
@@ -45,6 +48,13 @@ class TopBar extends React.Component {
                         <Row className='navbar-link-small'><Link onClick={() => {this.setState({screen: 2}); }} className='navbar-text' to='/projects'>{t("TID_PROJECTS")}</Link></Row>
                         <Row className='navbar-link-small'><Link onClick={() => {this.setState({screen: 3}); }} className='navbar-text' to='/research'>{t("TID_RESEARCH")}</Link></Row>
                         <Row className='navbar-link-small'><Link onClick={() => {this.setState({screen: 4}); }} className='navbar-text' to='/contacts'>{t("TID_CONTACTS")}</Link></Row>
+                        <Row className='navbar-link-small'>
+                            {this.props.language === 'bg' 
+                            ? <div><BgButtonSel onClick={() => this.props.languageClick('bg')} className='language-bar'/>/<EnButton onClick={() => this.props.languageClick('en')} className='language-bar'/></div>
+                            : <div><BgButton onClick={() => this.props.languageClick('bg')} className='language-bar'/>/<EnButtonSel onClick={() => this.props.languageClick('en')} className='language-bar'/></div>
+                            }
+                            
+                        </Row>
                     </Col>
                 </Collapsible>
                 :
@@ -58,7 +68,11 @@ class TopBar extends React.Component {
                      <div className='navbar-link'>
                         <div className='navbar-text-selected'>
                             <Row className='language-row'>
-                                <BgButton onClick={() => this.props.languageClick('bg')} className='language-bar'/>/<EnButton onClick={() => this.props.languageClick('en')} className='language-bar'/>
+                                {this.props.language === 'bg' 
+                                ? <div><BgButtonSel onClick={() => this.props.languageClick('bg')} className='language-bar'/>/<EnButton onClick={() => this.props.languageClick('en')} className='language-bar'/></div>
+                                : <div><BgButton onClick={() => this.props.languageClick('bg')} className='language-bar'/>/<EnButtonSel onClick={() => this.props.languageClick('en')} className='language-bar'/></div>
+                                }
+                                
                             </Row>
                         </div>
                     </div>

@@ -44,9 +44,9 @@ function NewsView(props) {
             </Carousel>
 
             <Container className='news-view'>
-                <Row className='news-view-title' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(news.title)} }/>
-                <Row className='news-view-date' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(news.date)} }/>
-                <Row className='news-view-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(news.text)} } />
+                <Row className='news-view-title' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(t(news.title))} }/>
+                <Row className='news-view-date' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(t(news.date))} }/>
+                <Row className='news-view-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(t(news.text))} } />
                 {(previous || next) && 
                     <Row>
                         {previous && 

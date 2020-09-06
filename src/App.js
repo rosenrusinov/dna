@@ -24,7 +24,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      language: 'en'
+      language: 'bg'
     }
   }
 
@@ -42,7 +42,7 @@ class App extends React.Component {
 
         <Container className='p-0' fluid={true}>
 
-          <TopBar languageClick={this.setLanguage} useSuspense={false} language={this.props.language}/>
+          <TopBar languageClick={this.setLanguage} useSuspense={false} language={this.state.language}/>
 
           <Route exact path='/'>
             <Home/>

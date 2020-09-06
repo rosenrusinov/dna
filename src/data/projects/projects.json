@@ -2,7 +2,7 @@
     "items": [
         {
             "link": "delight",
-            "title": "DE'LIGHT",
+            "title": "TID_PROJECT_TITLE_DELIGHT",
             "thumbnail": "/dna/media/projects/delight/slideshow/DeLight.jpg",
             "slideshow": [
                 "/dna/media/projects/delight/slideshow/DeLight.jpg", 
@@ -22,28 +22,28 @@
                 "/dna/media/projects/delight/slideshow/14.jpg"
             ],
             "views": [
-                { "type": "text", "text": "<p><span style=\"font-weight: 400;\">The<\/span><strong> Hotel Boscolo Milano<\/strong><span style=\"font-weight: 400;\"> nestled in the city of Milan (<\/span><em><span style=\"font-weight: 400;\">Italy<\/span><\/em><span style=\"font-weight: 400;\">) is the perfect blend of modernity and luxury. The hotel is bathed in natural light because of the massive windows facing the Corso Matteotti. The Boscolo Milano is perfectly situated for easy access to all the biggest and best events in the fields of finance, fashion, and design.<\/span> <span style=\"font-weight: 400;\">The interior design of the hotel<\/span><span style=\"font-weight: 400;\"> is the crop of the visionary and talented architect Italo Rota, who has completely rethought the building on Corso Matteotti formerly housing IMI Bank. The shapes, solutions and colors are distinctly unique in the hotel world. The <\/span><em><span style=\"font-weight: 400;\">brave design<\/span><\/em><span style=\"font-weight: 400;\"> spends all over the ground floor, reception and bar area, restaurant, conference, iconic spa and roof garden. The design of the rooms, however, is not accommodated for a comfortable and relaxing stay. Vivid colours and confusing space distribution force the visitors to spend little time in the rooms regardless of the amazing city views and luxury interior.<\/span><\/p>" },
+                { "type": "text", "text": "TID_PROJECT_DELIGHT_TEXT1" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/delight/content/Plan01.jpg", "/dna/media/projects/delight/content/Plan02.jpg", "/dna/media/projects/delight/content/Desk Area.jpg"]
                 ]},
-                { "type": "text", "text": "<p><strong><em>De&rsquo;Light<\/em><\/strong><span style=\"font-weight: 400;\"> is a concept for a new master suite in Boscolo Milano. The primary design intent is to create a space where the flow between zones and activities comes naturally and privacy is attained by the nonstandard spatial distribution and partition. The goal is to develop a space where the visitor can experience a space with a clear distinction between &ldquo;<\/span><em><span style=\"font-weight: 400;\">calming<\/span><\/em><span style=\"font-weight: 400;\">&rdquo; and &ldquo;<\/span><em><span style=\"font-weight: 400;\">refreshing<\/span><\/em><span style=\"font-weight: 400;\">&rdquo; areas that are intertwined into a minimal and luxurious environment. The key design driver for the spatial distribution is immersive fluidity. The space is welcoming and immerses the guest into a premium environment that wants to be explored and experienced. <\/span><\/p>" },
+                { "type": "text", "text": "TID_PROJECT_DELIGHT_TEXT2" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/delight/content/Backlit Onyx.jpg", "/dna/media/projects/delight/content/Bad Back.jpg", "/dna/media/projects/delight/content/Closet Backlit.jpg", "/dna/media/projects/delight/content/Fragments.jpg"],
                     ["/dna/media/projects/delight/content/Closet Cove.jpg", "/dna/media/projects/delight/content/Devine Cove.jpg", "/dna/media/projects/delight/content/Bad Down.jpg", "/dna/media/projects/delight/content/Laser Blade.jpg"]
                 ]},
-                { "type": "text", "text": "<p><span style=\"font-weight: 400;\">Custom light fixtures from &ldquo;<\/span><em><span style=\"font-weight: 400;\">divinity ceiling coves<\/span><\/em><span style=\"font-weight: 400;\">&rdquo; to &ldquo;<\/span><em><span style=\"font-weight: 400;\">energizing OLED fragments<\/span><\/em><span style=\"font-weight: 400;\">&rdquo; divide the range of spaces into two main categories based on activity and sentiment: <\/span><strong>calming <\/strong><span style=\"font-weight: 400;\">and <\/span><strong>refreshing<\/strong><span style=\"font-weight: 400;\">. Each light feature was specifically designed to create an <\/span><em><span style=\"font-weight: 400;\">illusion <\/span><\/em><span style=\"font-weight: 400;\">of illumination without an existing source. The backlit onyx panels, down-lit furniture elements, curvy ceiling profiles with spotlights are oriented to achieve maximum comfort and balance. The master suite is designed with few but exquisite materials such as oak wood, rose gold, marble and titanium coated plaster that changes according to the range of lighting scenarios provided by the custom-designed light fixtures. <\/span><strong><em>De&rsquo;Light<\/em><\/strong><span style=\"font-weight: 400;\"> is a concept for a space that adapts to the needs of the user dynamically and changes between lighting scenarios both manually and automatically. The space both guides you and is guided by you, providing a unique experience that would make anyone come back to Boscolo Milano.&nbsp; <\/span><\/p>" },
+                { "type": "text", "text": "TID_PROJECT_DELIGHT_TEXT3" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/delight/content/PlanView.jpg"],
                     ["/dna/media/projects/delight/content/Section FF.jpg"],
                     ["/dna/media/projects/delight/content/Section EE.jpg"],
                     ["/dna/media/projects/delight/content/Section GG_Lit Bar.jpg", "/dna/media/projects/delight/content/Section BB.jpg", "/dna/media/projects/delight/content/Section DD.jpg"]
                 ]},
-                { "type": "text", "text": "<p><span style=\"font-weight: 400;\">This <\/span><strong>contrast <\/strong><span style=\"font-weight: 400;\">of activities is reflected in the formal language of the space. The relaxing areas such as the lounge, bedroom, and bathtub area are <\/span><strong>curvy and fluid<\/strong><span style=\"font-weight: 400;\"> in shape with no sharp angles and hidden light elements. The boosting or energizing areas such as the entrance\/exit, desk, bar, and shower are all formally expressed with <\/span><strong>sharp angles<\/strong><span style=\"font-weight: 400;\"> and <\/span><strong>fragmented surfaces<\/strong><span style=\"font-weight: 400;\"> with hidden back-lit panels that slowly activate as you spend more time in the area.&nbsp;<\/span><\/p>\r\n<p><span style=\"font-weight: 400;\">The space is organized so that as you enter there is no direct view to the bed, maximising guest <\/span><em><span style=\"font-weight: 400;\">privacy<\/span><\/em><span style=\"font-weight: 400;\">. Rather, upon entry you are faced with a choice: to go to the lounge and relax or to unpack in the premium open closet with plenty of space and range of custom features. As you start exploring the space, you will notice how seamless the <\/span><strong>light follows and guides<\/strong><span style=\"font-weight: 400;\"> you to the marble bathroom with an oakwood hot tub with a view towards the city. The space also holds an unconventional shower with color therapy and massaging a horizontal bed that can take the stress away after a long day or gives you a morning energy boost. The master suite is perfectly accommodated for a mindful working session in the desk area where strong direct illumination emerges from the fragmented wall element.&nbsp;<\/span><\/p>\r\n<p><em><span style=\"font-weight: 400;\">The space was designed in September 2015 as a concept proposal for Hotel Boscolo Milano, Italy<\/span><\/em><\/p>\r\n" }
+                { "type": "text", "text": "TID_PROJECT_DELIGHT_TEXT4" }
             ]
         },
         { 
             "link": "levels",
-            "title": "LEVELS",
+            "title": "TID_PROJECT_TITLE_LEVELS",
             "thumbnail": "/dna/media/projects/levels/slideshow/01.jpg",
             "slideshow": [
                 "/dna/media/projects/levels/slideshow/14.jpg",
@@ -63,26 +63,26 @@
                 "/dna/media/projects/levels/slideshow/13.jpg"
             ],
             "views": [
-                { "type": "text", "text": "Text1" },
+                { "type": "text", "text": "TID_PROJECT_LEVELS_TEXT1" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/levels/content/D1.jpg"]
                 ]},
-                { "type": "text", "text": "Text2" },
+                { "type": "text", "text": "TID_PROJECT_LEVELS_TEXT2" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/levels/content/D2.jpg"],
                     ["/dna/media/projects/levels/content/ANIM1.gif"]
                 ]},
-                { "type": "text", "text": "Text3" },
+                { "type": "text", "text": "TID_PROJECT_LEVELS_TEXT3" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/levels/content/D4.jpg"]
                 ]},
-                { "type": "text", "text": "Text4" },
+                { "type": "text", "text": "TID_PROJECT_LEVELS_TEXT4" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/levels/content/DEMOLISH1.jpg", "/dna/media/projects/levels/content/DEMOLISH2.jpg", "/dna/media/projects/levels/content/DEMOLISH3.jpg"],
                     ["/dna/media/projects/levels/content/PROJECT1.jpg", "/dna/media/projects/levels/content/PROJECT2.jpg", "/dna/media/projects/levels/content/PROJECT3.jpg"],
                     ["/dna/media/projects/levels/content/ANIM2.gif"]
                 ]},
-                { "type": "text", "text": "Text5" }
+                { "type": "text", "text": "TID_PROJECT_LEVELS_TEXT5" }
             ]
         },
         { 
@@ -105,20 +105,20 @@
                 "/dna/media/projects/sulzano/slideshow/13.jpg"
             ],
             "views": [
-                { "type": "text", "text": "<p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial;color:#434343;background-color:#ffffff;font-weight:700;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The Floating Piers<\/span><span style=\"font-size:11pt;font-family:Arial;color:#434343;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;was a temporary,&nbsp;<\/span><a href=\"https:\/\/en.wikipedia.org\/wiki\/Site-specific_art\" style=\"text-decoration:none;\"><span style=\"font-size:11pt;font-family:Arial;color:#434343;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">site-specific<\/span><\/a><span style=\"font-size:11pt;font-family:Arial;color:#434343;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;work of art by&nbsp;<\/span><a href=\"https:\/\/en.wikipedia.org\/wiki\/Christo_and_Jeanne-Claude\" style=\"text-decoration:none;\"><span style=\"font-size:11pt;font-family:Arial;color:#434343;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Christo and Jeanne-Claude<\/span><\/a><span style=\"font-size:11pt;font-family:Arial;color:#434343;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">, installed in 2016 at&nbsp;<\/span><a href=\"https:\/\/en.wikipedia.org\/wiki\/Lake_Iseo\" style=\"text-decoration:none;\"><span style=\"font-size:11pt;font-family:Arial;color:#434343;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Lake Iseo<\/span><\/a><span style=\"font-size:11pt;font-family:Arial;color:#434343;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">. The iconic installation was visited by over 1.5 million people for the period of 16 days. Yellow fabric created a walkable surface between&nbsp;<\/span><a href=\"https:\/\/en.wikipedia.org\/wiki\/Sulzano\" style=\"text-decoration:none;\"><span style=\"font-size:11pt;font-family:Arial;color:#434343;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Sulzano<\/span><\/a><span style=\"font-size:11pt;font-family:Arial;color:#434343;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">,&nbsp;<\/span><a href=\"https:\/\/en.wikipedia.org\/wiki\/Monte_Isola\" style=\"text-decoration:none;\"><span style=\"font-size:11pt;font-family:Arial;color:#434343;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Monte Isola<\/span><\/a><span style=\"font-size:11pt;font-family:Arial;color:#434343;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;and the island of San Paolo. The floating pathway was with a total area of 100,000 sqm. Regardless of its short duration the event generated enormous public interest and boosted the local economy of the small town of Sulzano.<\/span><\/p>\r\n<p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial;color:#434343;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">To commemorate this event the local government opened a contest for a pavilion proposal on a specific site in Sulzano. This project looks at various aspects and inspects in detail the urban fabric of the small town. Aiming to create a series of points within the city that act as a public space network for tourists to explore. The internal web of temporary exhibitions points have double purpose varying seasonally. A set of furniture pieces were designed and a plan for creating continuous saffron-colored strips guiding visitors through the city.&nbsp;<\/span><\/p>" },
+                { "type": "text", "text": "TID_PROJECT_SULZANO_TEXT1" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/sulzano/content/M1.jpg", "/dna/media/projects/sulzano/content/M2.jpg", "/dna/media/projects/sulzano/content/M3.jpg"]
                 ]},
-                { "type": "text", "text": "<p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The proposal for the cultural development of the area is developed in multiple parts. The main event is proposed to take place in the lake for several weeks during spring every two years. Making it possible for artists to take advantage of the amazing opportunity and sculpt an experience in the lake. Lake Iseo is the fourth largest lake in Lombardy, Italy, fed by the Oglio river. It has an area of&nbsp;<\/span><span style=\"font-size:11pt;font-family:Arial;color:#222222;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">65.3 km&sup2; which can host various smaller or bigger land art installations. Connection to the island within the lake or the villages surrounding it can be created following the example set by Christo, but the space allows freedom for exploration and interpretation.&nbsp;<\/span><\/p>" },
+                { "type": "text", "text": "TID_PROJECT_SULZANO_TEXT2" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/sulzano/content/S1.jpg", "/dna/media/projects/sulzano/content/S2.jpg", "/dna/media/projects/sulzano/content/S3.jpg"]
                 ]},
-                { "type": "text", "text": "<p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The network of pathways with colored continuous lines leads up the hill into an open pavilion blending into the slope.The architectural proposal is minimal overhanging concrete structure resembling the outline of two boxes one on top of the other that are slightly rotated and form a continuous line. Blending into the landscape with three concrete slabs creating two floors hold big exhibition areas and stunning views towards the lake. &nbsp;The space manifests itself as a playground for art and culture where the iconic event can be commemorated. The pavilion has two levels with distinct spatial programs that can vary depending on the season or during events.&nbsp;<\/span><\/p>\r\n<p><br><\/p>\r\n<p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:10pt;font-family:Arial;color:#434343;background-color:#ffffff;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The space was designed in 2016 for the Comune di Sulzano, Italy.&nbsp;<\/span><\/p>" }
+                { "type": "text", "text": "TID_PROJECT_SULZANO_TEXT3" }
             ]
         },
         { 
             "link": "roomwithview",
-            "title": "ROOM WITH A VIEW",
+            "title": "TID_PROJECT_TITLE_ROOM",
             "thumbnail": "/dna/media/projects/roomwithaview/slideshow/Thumbnail.jpg",
             "slideshow": [
                 "/dna/media/projects/roomwithaview/slideshow/1.jpg",
@@ -130,31 +130,31 @@
                 "/dna/media/projects/roomwithaview/slideshow/Thumbnail.jpg"
             ],
             "views": [
-                { "type": "text", "text": "Text1" },
+                { "type": "text", "text": "TID_PROJECT_ROOM_TEXT1" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/roomwithaview/content/A1.jpg","/dna/media/projects/roomwithaview/content/A2.jpg","/dna/media/projects/roomwithaview/content/A3.jpg"],
                     ["/dna/media/projects/roomwithaview/content/A4.jpg","/dna/media/projects/roomwithaview/content/A5.jpg","/dna/media/projects/roomwithaview/content/A6.jpg"],
                     ["/dna/media/projects/roomwithaview/content/A7.jpg","/dna/media/projects/roomwithaview/content/A8.jpg","/dna/media/projects/roomwithaview/content/A9.jpg"]
                 ]},
-                { "type": "text", "text": "Text2" },
+                { "type": "text", "text": "TID_PROJECT_ROOM_TEXT2" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/roomwithaview/content/ANIM01.gif"]
                 ]},
-                { "type": "text", "text": "Text3" },
+                { "type": "text", "text": "TID_PROJECT_ROOM_TEXT3" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/roomwithaview/content/D1.jpg","/dna/media/projects/roomwithaview/content/D2.jpg","/dna/media/projects/roomwithaview/content/D3.jpg"]
                 ]},
-                { "type": "text", "text": "Text4" },
+                { "type": "text", "text": "TID_PROJECT_ROOM_TEXT4" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/roomwithaview/content/P1.gif","/dna/media/projects/roomwithaview/content/P2.gif","/dna/media/projects/roomwithaview/content/P3.gif"],
                     ["/dna/media/projects/roomwithaview/content/P4.gif","/dna/media/projects/roomwithaview/content/P5.gif","/dna/media/projects/roomwithaview/content/P6.gif"]
                 ]},
-                { "type": "text", "text": "Text5" }
+                { "type": "text", "text": "TID_PROJECT_ROOM_TEXT5" }
             ]
         },
         { 
             "link": "pathway",
-            "title": "SEASCAPE PATHWAY",
+            "title": "TID_PROJECT_TITLE_SEASCAPE",
             "thumbnail": "/dna/media/projects/pathway/slideshow/A.jpg",
             "slideshow": [
                 "/dna/media/projects/pathway/slideshow/A.jpg",
@@ -178,19 +178,19 @@
                 "/dna/media/projects/pathway/slideshow/17.jpg"
             ],
             "views": [
-                { "type": "text", "text": "Text1" },
+                { "type": "text", "text": "TID_PROJECT_SEASCAPE_TEXT1" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/pathway/content/ANIM01.gif"]
                 ]},
-                { "type": "text", "text": "Text2" },
+                { "type": "text", "text": "TID_PROJECT_SEASCAPE_TEXT2" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/pathway/content/ANIM02.gif"]
                 ]},
-                { "type": "text", "text": "Text3" },
+                { "type": "text", "text": "TID_PROJECT_SEASCAPE_TEXT3" },
                 { "type": "grid", "content": [
                     ["/dna/media/projects/pathway/content/ANIM03.gif"]
                 ]},
-                { "type": "text", "text": "Text4" }
+                { "type": "text", "text": "TID_PROJECT_SEASCAPE_TEXT4" }
             ]
         }
     ]

@@ -3,6 +3,7 @@ import { Carousel, Container, Col, Row } from 'react-bootstrap';
 import { useLocation } from 'react-router-dom'
 import { SRLWrapper } from 'simple-react-lightbox';
 import DOMPurify from 'dompurify';
+import { useTranslation } from 'react-i18next';
 
 function makeSlideshow (items) {
     return items.map(item => {
@@ -34,11 +35,11 @@ function makeRow(items) {
     })
 }
 
-function makeProject (items) {
+function makeProject (items, t) {
     return items.map(item => {
         if (item.type === 'text')
         {
-            return <div key={item.text} className='project-view-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(item.text)} }/>
+            return <div key={item.text} className='project-view-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(t(item.text))} }/>
         }
         else if (item.type === 'image')
         {
@@ -82,6 +83,7 @@ const options = {
 };
 
 function ProjectView (props)  {
+    const { t } = useTranslation();
     let link = useLocation().pathname.substring(props.startIndex);
     let index = props.projects.findIndex(findProject, link);
     let project = props.projects[index];
@@ -92,7 +94,7 @@ function ProjectView (props)  {
                     {makeSlideshow(project.slideshow)}
                 </Carousel>
                 <Container key={"project" + index} className='project-view-container'>
-                    {makeProject(project.views)}
+                    {makeProject(project.views, t)}
                 </Container>
             </SRLWrapper>
         </div>
