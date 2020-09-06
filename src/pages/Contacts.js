@@ -5,6 +5,7 @@ import MapContainer from '../components/MapContainer';
 import { ReactComponent as Phone } from '../vectors/contacts/phone.svg'
 import { ReactComponent as Adress } from '../vectors/contacts/location.svg'
 import { ReactComponent as Email } from '../vectors/contacts/email.svg'
+import { withTranslation } from 'react-i18next';
 
 class Contacts extends React.Component {
     constructor(props) {
@@ -16,7 +17,7 @@ class Contacts extends React.Component {
             message: '',
             loading: false,
             validated: false,
-            button: 'ИЗПРАТИ'
+            button: 'TID_BUTTON_SEND'
         };
     }
 
@@ -65,7 +66,7 @@ class Contacts extends React.Component {
                     email: '',
                     about: '',
                     message: '',
-                    button: 'ИЗПРАТЕНО'
+                    button: 'TID_BUTTON_SENТ'
                 });
             })
             // Handle errors here however you like, or use a React error boundary
@@ -73,47 +74,48 @@ class Contacts extends React.Component {
     }
 
     render() {
+        const { t } = this.props;
         return (
             <Container fluid={true}>
                 <Container className='contacts-header'>
                     <Row className='contacts-title'>
-                        <p className='contacts-title-text'>СВЪРЖЕТЕ СЕ С НАС!</p>
+                        <p className='contacts-title-text'>{t("TID_CONTACT_US")}</p>
                     </Row>
 
                     <Row className='contacts-options'>
                         <Col className='contacts-col'>
                             <Phone style={{width: 23.8, height: 43.6}}/>
-                            <p className='contacts-col-title'>ТЕЛЕФОН</p>
+                            <p className='contacts-col-title'>{t("TID_PHONE")}</p>
                             <p className='contacts-col-text'><a href='tel:+359 889 60 56 09'>+359 889 60 56 09</a></p>
                         </Col>
                         <Col className='contacts-col middle'>
                             <Adress style={{width: 31.3, height: 43.6}}/>
-                            <p className='contacts-col-title'>АДРЕС</p>
+                            <p className='contacts-col-title'>{t("TID_ADRESS")}</p>
                             <p className='contacts-col-text'>ul. "Knyaz Boris I" 1, 3703</p>
                             <p className='contacts-col-text'>Kaleto, Vidin, Bulgaria</p>
                         </Col>
                         <Col className='contacts-col'>
                             <Email style={{width: 48, height: 43.6}}/>
-                            <p className='contacts-col-title'>ИМЕЙЛ</p>
+                            <p className='contacts-col-title'>{t("TID_EMAIL")}</p>
                             <a href="mailto:kirova.dnastudio@gmail.com" className='contacts-col-text'>kirova.dnastudio@gmail.com</a>
                         </Col>
                     </Row>
 
                     <Form noValidate validated={this.state.validated} className='contacts-form' onSubmit={this.onSubmit.bind(this)}>
                         <Form.Group controlId='formName'>
-                            <Form.Control required type='text' placeholder='Име' value={this.state.name} onChange={this.onNameChange.bind(this)} />
+                            <Form.Control required type='text' placeholder={t("TID_NAME")} value={this.state.name} onChange={this.onNameChange.bind(this)} />
                         </Form.Group>
                         <Form.Group controlId='formEmail'>
-                            <Form.Control required type='email' placeholder='Имейл Адрес' value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+                            <Form.Control required type='email' placeholder={t("TID_EMAIL_ADRESS")} value={this.state.email} onChange={this.onEmailChange.bind(this)} />
                         </Form.Group>
                         <Form.Group controlId='formAbout'>
-                            <Form.Control required type='text' placeholder='Относно' value={this.state.about} onChange={this.onAboutChange.bind(this)} />
+                            <Form.Control required type='text' placeholder={t("TID_EMAIL_ABOUT")} value={this.state.about} onChange={this.onAboutChange.bind(this)} />
                         </Form.Group>
                         <Form.Group controlId='formMessage'>
-                            <Form.Control required as='textarea' rows={5} placeholder='Съобщение' value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+                            <Form.Control required as='textarea' rows={5} placeholder={t("TID_MESSAGE")} value={this.state.message} onChange={this.onMessageChange.bind(this)} />
                         </Form.Group>
                         <Form.Group controlId='formSubmit' className='col text-center'>
-                            <Button type="submit" disabled={this.state.loading} className='contacts-button' size='lg'>{this.state.button}</Button>
+                            <Button type="submit" disabled={this.state.loading} className='contacts-button' size='lg'>{t(this.state.button)}</Button>
                         </Form.Group>
                     </Form>
                 </Container>
@@ -126,4 +128,4 @@ class Contacts extends React.Component {
     }
 }
 
-export default Contacts;
+export default withTranslation()(Contacts);

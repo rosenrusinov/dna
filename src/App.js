@@ -18,12 +18,19 @@ import ProjectView from './components/ProjectView';
 import ProjectsData from './data/projects/projects.json'
 import ResearchData from './data/projects/research.json'
 import TopBar from './components/TopBar';
+import { withTranslation } from 'react-i18next';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      language: 'en'
     }
+  }
+
+  setLanguage = (language) => {
+    this.setState({language: language});
+    this.props.i18n.changeLanguage(language);
   }
 
   render () {
@@ -35,7 +42,7 @@ class App extends React.Component {
 
         <Container className='p-0' fluid={true}>
 
-          <TopBar/>
+          <TopBar languageClick={this.setLanguage} useSuspense={false} language={this.props.language}/>
 
           <Route exact path='/'>
             <Home/>
@@ -85,4 +92,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default withTranslation()(App);

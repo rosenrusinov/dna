@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom';
 import {ReactComponent as Logo} from '../logo.svg';
 import Collapsible from './Collapsible';
 
+import {ReactComponent as BgButton} from '../vectors/bg.svg';
+import {ReactComponent as EnButton} from '../vectors/en.svg';
+
+import { withTranslation } from 'react-i18next';
+
 class TopBar extends React.Component {
     constructor(props) {
         super(props);
@@ -30,25 +35,33 @@ class TopBar extends React.Component {
     }
 
     render() {
+        const { t } = this.props;
         return (
             <div>
                 {this.state.width < 600 ?
                 <Collapsible>
                     <Col className='navbar-container'>
-                        <Row className='navbar-link-small'><Link onClick={() => {this.setState({screen: 0}); }} className='navbar-text' to='/about'>за нас</Link></Row>
-                        <Row className='navbar-link-small'><Link onClick={() => {this.setState({screen: 2}); }} className='navbar-text' to='/projects'>проекти</Link></Row>
-                        <Row className='navbar-link-small'><Link onClick={() => {this.setState({screen: 3}); }} className='navbar-text' to='/research'>разработки</Link></Row>
-                        <Row className='navbar-link-small'><Link onClick={() => {this.setState({screen: 4}); }} className='navbar-text' to='/contacts'>контакти</Link></Row>
+                        <Row className='navbar-link-small'><Link onClick={() => {this.setState({screen: 0}); }} className='navbar-text' to='/about'>{t("TID_ABOUT")}</Link></Row>
+                        <Row className='navbar-link-small'><Link onClick={() => {this.setState({screen: 2}); }} className='navbar-text' to='/projects'>{t("TID_PROJECTS")}</Link></Row>
+                        <Row className='navbar-link-small'><Link onClick={() => {this.setState({screen: 3}); }} className='navbar-text' to='/research'>{t("TID_RESEARCH")}</Link></Row>
+                        <Row className='navbar-link-small'><Link onClick={() => {this.setState({screen: 4}); }} className='navbar-text' to='/contacts'>{t("TID_CONTACTS")}</Link></Row>
                     </Col>
                 </Collapsible>
                 :
                 <Row className='navbar-container'>
                      <div className='navbar-inner'></div>
                      <div className='navbar-logo'><Link onClick={() => this.setState({screen: -1})} to='/'><Logo className='logo'/></Link></div>
-                     <Col className='navbar-link'><Link onClick={() => this.setState({screen: 0})} className={this.state.screen === 0 ? 'navbar-text-selected' : 'navbar-text'} to='/about'>за нас</Link></Col>
-                     <Col className='navbar-link'><Link onClick={() => this.setState({screen: 2})} className={this.state.screen === 2 ? 'navbar-text-selected' : 'navbar-text'} to='/projects'>проекти</Link></Col>
-                     <Col className='navbar-link'><Link onClick={() => this.setState({screen: 3})} className={this.state.screen === 3 ? 'navbar-text-selected' : 'navbar-text'} to='/research'>разработки</Link></Col>
-                     <Col className='navbar-link'><Link onClick={() => this.setState({screen: 4})} className={this.state.screen === 4 ? 'navbar-text-selected' : 'navbar-text'} to='/contacts'>контакти</Link></Col>
+                     <Col className='navbar-link'><Link onClick={() => this.setState({screen: 0})} className={this.state.screen === 0 ? 'navbar-text-selected' : 'navbar-text'} to='/about'>{t("TID_ABOUT")}</Link></Col>
+                     <Col className='navbar-link'><Link onClick={() => this.setState({screen: 2})} className={this.state.screen === 2 ? 'navbar-text-selected' : 'navbar-text'} to='/projects'>{t("TID_PROJECTS")}</Link></Col>
+                     <Col className='navbar-link'><Link onClick={() => this.setState({screen: 3})} className={this.state.screen === 3 ? 'navbar-text-selected' : 'navbar-text'} to='/research'>{t("TID_RESEARCH")}</Link></Col>
+                     <Col className='navbar-link'><Link onClick={() => this.setState({screen: 4})} className={this.state.screen === 4 ? 'navbar-text-selected' : 'navbar-text'} to='/contacts'>{t("TID_CONTACTS")}</Link></Col>
+                     <div className='navbar-link'>
+                        <div className='navbar-text-selected'>
+                            <Row className='language-row'>
+                                <BgButton onClick={() => this.props.languageClick('bg')} className='language-bar'/>/<EnButton onClick={() => this.props.languageClick('en')} className='language-bar'/>
+                            </Row>
+                        </div>
+                    </div>
                      <div className='navbar-end'></div>
                 </Row>}
             </div>
@@ -56,4 +69,4 @@ class TopBar extends React.Component {
     }
 }
 
-export default TopBar;
+export default withTranslation()(TopBar);

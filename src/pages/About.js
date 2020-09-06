@@ -7,6 +7,7 @@ import Media from 'react-media';
 import Employees from '../data/about/employees.json';
 import Service from '../components/Service';
 import ServicesData from '../data/services.json';
+import { withTranslation } from 'react-i18next';
 
 class AboutUs extends React.Component {
     constructor(props) {
@@ -44,11 +45,12 @@ class AboutUs extends React.Component {
     }
 
     render () {
+        const { t } = this.props;
         return (
             <Container className='about-us'>
                 <Row>
                     <Col className='about-us-text'>
-                        <div key={this.state.text} className='employee-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(Employees.text)}}/>
+                        <div key={this.state.text} className='employee-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(t(Employees.text))}}/>
                     </Col>
                 </Row>
 
@@ -70,7 +72,7 @@ class AboutUs extends React.Component {
 
                 <Row>
                     <Col className='about-us-text'>
-                        <div key={this.state.text} className='employee-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(Employees.text2)}}/>
+                        <div key={this.state.text} className='employee-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(t(Employees.text2))}}/>
                     </Col>
                 </Row>
                 <Row xs={1} sm={2} md={3} lg={4} className='center-col'>
@@ -78,7 +80,7 @@ class AboutUs extends React.Component {
                 </Row>
                 <Row>
                 <Col className='about-us-text'>
-                    {this.state.text && <div key={this.state.text} className='employee-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(this.state.text)} }/>}
+                    {this.state.text && <div key={this.state.text} className='employee-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(t(this.state.text))} }/>}
                 </Col>
                 </Row>
             </Container>
@@ -86,4 +88,4 @@ class AboutUs extends React.Component {
     }
 }
 
-export default AboutUs;
+export default withTranslation()(AboutUs);

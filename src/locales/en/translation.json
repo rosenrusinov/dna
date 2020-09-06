@@ -1,0 +1,43 @@
+{
+    "TID_ABOUT": "about",
+    "TID_PROJECTS": "projects",
+    "TID_RESEARCH": "research",
+    "TID_CONTACTS": "contacts",
+
+    "TID_CONTACT_US": "CONTACT US",
+    "TID_PHONE": "PHONE",
+    "TID_ADRESS": "ADRESS",
+    "TID_EMAIL": "EMAIL",
+
+    "TID_NAME": "Name",
+    "TID_EMAIL_ADRESS": "Email Adress",
+    "TID_EMAIL_ABOUT": "About",
+    "TID_MESSAGE": "Message",
+    "TID_BUTTON_SEND": "SEND",
+    "TID_BUTTON_SENT": "SENT",
+
+    "TID_BACK_TO_TOP": "back to top",
+    "TID_FOOTER_TEXT": "@ DNA Studio 2020 | more then architecture",
+
+    "TID_NEWS": "NEWS",
+    "TID_BUTTON_PREVIOUS": "previous",
+    "TID_BUTTON_NEXT": "next",
+
+    "TID_ABOUT_US_TEXT1": "English Text 1",
+    "TID_ABOUT_US_TEXT2": "English Text 2",
+
+    "TID_SERVICE_1": "INTERIOR DESIGN",
+    "TID_SERVICE_2": "DRAFTING",
+    "TID_SERVICE_3": "ARCHITECTURAL DESIGN",
+    "TID_SERVICE_4": "RENOVATION",
+    "TID_SERVICE_5": "URBAN PLANNING",
+    "TID_SERVICE_6": "PARAMETRIC DESIGN",
+    "TID_SERVICE_7": "COMPUTATIONAL ANALYS",
+    "TID_SERVICE_8": "3D SCANNING",
+    "TID_SERVICE_9": "INTERACTION DESIGN",
+    "TID_SERVICE_10": "VISUALISATIONS",
+
+    "TID_NAME_NIKOL": "Nikol Kirova",
+    "TID_TITLE_NIKOL": "architect",
+    "TID_TEXT_NIKOL": "English text here"
+}

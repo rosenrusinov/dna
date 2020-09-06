@@ -9,6 +9,26 @@
   fill: #05ce7e;
 }
 
+.language-row {
+  vertical-align: middle;
+}
+
+.language-bar {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 18px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.language-bar-selected {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 18px;
+  height: 100%;
+  cursor: pointer;
+}
+
 .navbar-logo {
   padding-top: 20px;
   padding-bottom: 0px;

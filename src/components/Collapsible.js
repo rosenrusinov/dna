@@ -2,7 +2,7 @@ import React from 'react';
 import {ReactComponent as Logo} from '../logo.svg';
 import {ReactComponent as Burger} from '../open-menu.svg';
 import { Link } from 'react-router-dom';
-import { Row, Col, Button } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 class Collapsible extends React.Component {
     constructor(props) {
