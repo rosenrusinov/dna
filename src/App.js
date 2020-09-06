@@ -1,11 +1,10 @@
 import React from 'react';
-import { Container, Navbar, Nav } from 'react-bootstrap';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import SimpleReactLightbox from "simple-react-lightbox";
 
 import './App.css';
 
-import {ReactComponent as Logo} from './logo.svg';
 import AboutUs from './pages/About';
 import Home from './pages/Home';
 import NewsView from './components/NewsView';
@@ -18,6 +17,7 @@ import ProjectView from './components/ProjectView';
 
 import ProjectsData from './data/projects/projects.json'
 import ResearchData from './data/projects/research.json'
+import TopBar from './components/TopBar';
 
 class App extends React.Component {
   constructor(props) {
@@ -30,21 +30,12 @@ class App extends React.Component {
     return (
       <Router>
         <SimpleReactLightbox>
+
         <ScrollToTop>
+
         <Container className='p-0' fluid={true}>
-          <Navbar className='navbar-custom' expand='lg'>
-            <Link className='navbar-absolute' to='/'><Logo className='logo'/></Link>
-            <Navbar.Toggle className='ml-auto navbar-toggle' aria-controls='navbar-toggle' />
-            <Navbar.Collapse id='navbar-toggle'>
-              <Nav className='m-auto border-bottom navbar-custom'>
-                <Link className='nav-link' to='/about'>ЗА НАС</Link>
-                <Link className='nav-link' to='/services'>УСЛУГИ</Link>
-                <Link className='nav-link' to='/projects'>ПРОЕКТИ</Link>
-                <Link className='nav-link' to='/research'>РАЗРАБОТКИ</Link>
-                <Link className='nav-link' to='/contacts'>КОНТАКТИ</Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
+
+          <TopBar/>
 
           <Route exact path='/'>
             <Home/>
@@ -85,7 +76,9 @@ class App extends React.Component {
           <Footer/>
 
         </Container>
+
         </ScrollToTop>
+
         </SimpleReactLightbox>
       </Router>
     );

@@ -2,8 +2,11 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Employee from '../components/Employee';
 import DOMPurify from 'dompurify';
+import Media from 'react-media';
 
 import Employees from '../data/about/employees.json';
+import Service from '../components/Service';
+import ServicesData from '../data/services.json';
 
 class AboutUs extends React.Component {
     constructor(props) {
@@ -17,6 +20,16 @@ class AboutUs extends React.Component {
 
     handleEmployeeClick = (id, text) => {
         this.setState({text: text, selected: id});
+    }
+
+    makeServices = (items, small) => {
+        return items.map(item => {
+            return <Service key={item.id} selected={item.id === this.state.selected}
+                    img={item.icon}
+                    name={item.name}
+                    // onClick={(e) => this.handleServiceClick(item.id, item.text)}
+                />
+        })
     }
 
     makeItems = (items) => {
@@ -36,6 +49,28 @@ class AboutUs extends React.Component {
                 <Row>
                     <Col className='about-us-text'>
                         <div key={this.state.text} className='employee-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(Employees.text)}}/>
+                    </Col>
+                </Row>
+
+                <Container className='services-container'>
+                    <Media query={{ maxWidth: 1199 }}>
+                    {matches =>
+                        matches ? (
+                            <Row xs={2} sm={5} md={5} className='center-col'>
+                                {this.makeServices(ServicesData.items)}
+                            </Row>
+                        ) : (
+                            <Row className='center-col'>
+                                {this.makeServices(ServicesData.items)}
+                            </Row>
+                        )
+                    }
+                    </Media>
+                </Container>
+
+                <Row>
+                    <Col className='about-us-text'>
+                        <div key={this.state.text} className='employee-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(Employees.text2)}}/>
                     </Col>
                 </Row>
                 <Row xs={1} sm={2} md={3} lg={4} className='center-col'>
