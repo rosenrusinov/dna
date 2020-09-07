@@ -1,0 +1,36 @@
+        { 
+            "link": "roomwithview",
+            "title": "TID_PROJECT_TITLE_ROOM",
+            "thumbnail": "/dna/media/projects/roomwithaview/slideshow/Thumbnail.jpg",
+            "slideshow": [
+                "/dna/media/projects/roomwithaview/slideshow/1.jpg",
+                "/dna/media/projects/roomwithaview/slideshow/2.jpg",
+                "/dna/media/projects/roomwithaview/slideshow/3.1.jpg",
+                "/dna/media/projects/roomwithaview/slideshow/3.jpg",
+                "/dna/media/projects/roomwithaview/slideshow/4.jpg",
+                "/dna/media/projects/roomwithaview/slideshow/6.jpg",
+                "/dna/media/projects/roomwithaview/slideshow/Thumbnail.jpg"
+            ],
+            "views": [
+                { "type": "text", "text": "TID_PROJECT_ROOM_TEXT1" },
+                { "type": "grid", "content": [
+                    ["/dna/media/projects/roomwithaview/content/A1.jpg","/dna/media/projects/roomwithaview/content/A2.jpg","/dna/media/projects/roomwithaview/content/A3.jpg"],
+                    ["/dna/media/projects/roomwithaview/content/A4.jpg","/dna/media/projects/roomwithaview/content/A5.jpg","/dna/media/projects/roomwithaview/content/A6.jpg"],
+                    ["/dna/media/projects/roomwithaview/content/A7.jpg","/dna/media/projects/roomwithaview/content/A8.jpg","/dna/media/projects/roomwithaview/content/A9.jpg"]
+                ]},
+                { "type": "text", "text": "TID_PROJECT_ROOM_TEXT2" },
+                { "type": "grid", "content": [
+                    ["/dna/media/projects/roomwithaview/content/ANIM01.gif"]
+                ]},
+                { "type": "text", "text": "TID_PROJECT_ROOM_TEXT3" },
+                { "type": "grid", "content": [
+                    ["/dna/media/projects/roomwithaview/content/D1.jpg","/dna/media/projects/roomwithaview/content/D2.jpg","/dna/media/projects/roomwithaview/content/D3.jpg"]
+                ]},
+                { "type": "text", "text": "TID_PROJECT_ROOM_TEXT4" },
+                { "type": "grid", "content": [
+                    ["/dna/media/projects/roomwithaview/content/P1.gif","/dna/media/projects/roomwithaview/content/P2.gif","/dna/media/projects/roomwithaview/content/P3.gif"],
+                    ["/dna/media/projects/roomwithaview/content/P4.gif","/dna/media/projects/roomwithaview/content/P5.gif","/dna/media/projects/roomwithaview/content/P6.gif"]
+                ]},
+                { "type": "text", "text": "TID_PROJECT_ROOM_TEXT5" }
+            ]
+        },
