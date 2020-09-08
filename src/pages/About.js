@@ -75,13 +75,19 @@ class AboutUs extends React.Component {
                         <div key={this.state.text} className='employee-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(t(Employees.text2))}}/>
                     </Col>
                 </Row>
+                <Row className='center-col'>
+                        <img key="scanner" src="/dna/media/banner2.jpg" width="90%" alt="scanner" />
+                </Row>
                 <Row xs={1} sm={2} md={3} lg={4} className='center-col'>
                     {this.makeItems(this.state.items)}
                 </Row>
                 <Row>
-                <Col className='about-us-text'>
-                    {this.state.text && <div key={this.state.text} className='employee-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(t(this.state.text))} }/>}
-                </Col>
+                    <Col className='about-us-text'>
+                        {this.state.text && <div key={this.state.text} className='employee-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(t(this.state.text))} }/>}
+                    </Col>
+                </Row>
+                <Row>
+                    <img key="eu_project" src="/dna/media/banner.jpg" width="100%" alt="eu_project" />
                 </Row>
             </Container>
         )
