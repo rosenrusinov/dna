@@ -78,12 +78,12 @@ class AboutUs extends React.Component {
                 <Row className='center-col'>
                         <img key="scanner" src="/dna/media/banner2.jpg" width="90%" alt="scanner" />
                 </Row>
-                <Row xs={1} sm={2} md={3} lg={4} className='center-col'>
+                <Row xs={1} sm={2} md={3} lg={4} className='center-col employee-text-top'>
                     {this.makeItems(this.state.items)}
                 </Row>
                 <Row>
                     <Col className='about-us-text'>
-                        {this.state.text && <div key={this.state.text} className='employee-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(t(this.state.text))} }/>}
+                        <div key={this.state.text} className='employee-text' dangerouslySetInnerHTML={ {__html: DOMPurify.sanitize(t(Employees.items[0].text))} }/>
                     </Col>
                 </Row>
                 <Row>

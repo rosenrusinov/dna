@@ -505,10 +505,13 @@
   justify-content: space-evenly;
 }
 
+.employee-text-top {
+  margin-top: 20px;
+}
+
 .about-us-employee-image {
   margin-left: auto;
   margin-right: auto;
-  cursor: pointer;
 }
 
 .navbar-custom .nav-link {
