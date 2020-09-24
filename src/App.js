@@ -19,6 +19,7 @@ import ProjectsData from './data/projects/projects.json'
 import ResearchData from './data/projects/research.json'
 import TopBar from './components/TopBar';
 import { withTranslation } from 'react-i18next';
+import EuTopBar from './components/EuTopBar';
 
 class App extends React.Component {
   constructor(props) {
@@ -81,6 +82,8 @@ class App extends React.Component {
           </Route>
 
           <Footer/>
+
+          <EuTopBar language={this.state.language}/>
 
         </Container>
 

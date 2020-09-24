@@ -36,8 +36,42 @@
   margin-right: 2px;
 }
 
+.eu-shit {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.eu-shit-left {
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.eu-shit-right {
+  max-width: 240px;
+  width: 100%;
+  height: auto;
+  max-height: 100px;
+  margin-right: 30px;
+}
+
+.eu-shit-right-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .navbar-container {
-  padding-top: 10px;
+  padding-top: 90px;
   margin-bottom: 0px !important;
   margin-left: 0px !important;
   margin-right: 0px !important;

@@ -43,7 +43,7 @@ class TopBar extends React.Component {
             <div>
                 {this.state.width < 600 ?
                 <Collapsible>
-                    <Col className='navbar-container'>
+                    <Col>
                         <Row className='navbar-link-small'><Link onClick={() => {this.setState({screen: 0}); }} className='navbar-text' to='/about'>{t("TID_ABOUT")}</Link></Row>
                         <Row className='navbar-link-small'><Link onClick={() => {this.setState({screen: 2}); }} className='navbar-text' to='/projects'>{t("TID_PROJECTS")}</Link></Row>
                         <Row className='navbar-link-small'><Link onClick={() => {this.setState({screen: 3}); }} className='navbar-text' to='/research'>{t("TID_RESEARCH")}</Link></Row>
