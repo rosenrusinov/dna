@@ -156,6 +156,19 @@
                 ]},
                 { "type": "text", "text": "TID_PROJECT_SEASCAPE_TEXT4" }
             ]
+        },
+        { 
+            "link": "eu",
+            "title": "EU_PROJECT",
+            "thumbnail": "/dna/media/banner.jpg",
+            "slideshow": [
+                "/dna/media/banner.jpg"
+            ],
+            "views": [
+                { "type": "text", "text": "EU_TEXT1" },
+                { "type": "grid", "content": [
+                ]}
+            ]
         }
     ]
 }
